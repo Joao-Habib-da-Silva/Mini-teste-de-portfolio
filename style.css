@@ -1,0 +1,91 @@
+#leftheader {
+    background-color: black;
+    justify-content: left;
+    display:flex;
+
+}
+#leftheader h1 {
+    color:#c1121f;
+    padding-left: 50px;
+    font-family: myfont;
+
+}
+#leftheader h1:hover {
+    color: #780000;
+    text-decoration: underline;
+    transition: 1.0s;
+
+}
+#leftheader a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+}
+.header  {
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+}
+#rightheader {
+    padding-top: 15px;
+    margin: 5px;
+    padding-right: 70px;
+}
+#rightheader li {
+    display: inline ;
+    text-decoration: none;
+    margin: 20px;
+    font-size: large;
+
+}
+@font-face {
+    font-family: 'myfont';
+    src: url(Poppins-Medium.ttf);
+}
+#rightheader a {
+    text-decoration: none;
+    color: red;
+    font-family:myfont;
+
+}
+#rightheader a:hover {
+    color: #780000;
+   text-decoration: underline;
+   transition: 1.0s;
+}
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+#leftbody img {
+    display: flex;
+    border-radius: 400px;
+    width:500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#rightbody {
+    color: #c1121f;
+    margin:130px;
+}
+@font-face {
+    font-family:'myfont2';
+    src: url(Poppins-SemiBold.ttf);
+}
+#rightbody h1 {
+    font-family: myfont2;
+}
+#rightbody h2 {
+    font-family:myfont;
+    margin-bottom: 30px;
+}
+#rightbody p {
+    font-family:myfont2;
+}
+
+
